@@ -1,0 +1,10 @@
+// Copyright (C) 2020 GZOSP
+//
+// SPDX-License-Identifier: GPL-2.0
+
+android_app {
+    name: "GZWalls",
+    system_ext_specific: true,
+    sdk_version: "current",
+    aaptflags: ["--auto-add-overlay"],
+}
